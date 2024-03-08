@@ -10,5 +10,9 @@ namespace OnlineFastFoodEntityLayer.Concrete
 
         [Required]
         public string Title { get; set; }
+
+        // relations , which category used ..
+        public List<SubCategory> SubCategories { get; set; }
+        public List<Item> Items { get; set; }
     }
 }

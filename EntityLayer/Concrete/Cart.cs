@@ -13,7 +13,7 @@ namespace OnlineFastFoodEntityLayer.Concrete
         public Item Item { get; set; }
 
         // Relationship between AppUser
-        public string UserId { get; set; }
+        public int UserId { get; set; }
         public AppUser AppUser { get; set; }
 
         public int Count { get; set; }

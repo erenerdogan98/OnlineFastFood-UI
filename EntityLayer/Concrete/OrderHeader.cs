@@ -8,7 +8,7 @@ namespace OnlineFastFoodEntityLayer.Concrete
         public int Id { get; set; }
 
         // Relationship between AppUser
-        public string AppUserId { get; set; }
+        public int AppUserId { get; set; }
         public AppUser AppUser { get; set; }
         [DataType(DataType.Date)]
         public DateTime Date { get; set; }
@@ -24,5 +24,6 @@ namespace OnlineFastFoodEntityLayer.Concrete
         public string Name { get; set; }
         public string Phone { get; set; }
 
+        public List<OrderDetail> OrderDetails { get; set; }
     }
 }

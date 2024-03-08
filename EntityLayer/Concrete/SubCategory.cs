@@ -13,5 +13,7 @@ namespace OnlineFastFoodEntityLayer.Concrete
         // Relationship between 'Category' table
         public int CategoryId { get; set; }
         public Category Category { get; set; }
+
+        public List<Item> Items { get; set; }
     }
 }
